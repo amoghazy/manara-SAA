@@ -1,0 +1,33 @@
+# Node.js
+node_modules/
+**/node_modules/  # ignore any nested node_modules
+
+# Python
+__pycache__/
+*.pyc
+
+# Terraform
+terraform.tfstate
+terraform.tfstate.*
+.terraform/
+
+package-*.json
+
+# ZIP deployment packages
+*.zip
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+
+# Other
+.env
+*.bak
